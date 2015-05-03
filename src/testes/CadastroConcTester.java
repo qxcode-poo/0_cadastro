@@ -1,7 +1,7 @@
 package testes;
 
-import cadastro.CadastroAbsTester;
 import cadastro.ICadastro;
+import cadastro.aluno.CadastroAbsTester;
 import visaoaluno.Cadastro;
 
 public class CadastroConcTester extends CadastroAbsTester{
