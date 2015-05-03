@@ -1,5 +1,6 @@
 package testes;
 
+import cadastro.CadastroAbsTester;
 import cadastro.ICadastro;
 import visaoaluno.Cadastro;
 
