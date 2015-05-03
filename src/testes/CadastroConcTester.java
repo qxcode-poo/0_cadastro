@@ -1,10 +1,9 @@
 package testes;
 
-import cadastro.TesteCadastro;
 import cadastro.ICadastro;
 import visaoaluno.Cadastro;
 
-public class CadastroConcTester extends TesteCadastro{
+public class CadastroConcTester extends CadastroAbsTester{
 
 	@Override
 	public ICadastro getAgendaConcret() {
