@@ -1,9 +1,7 @@
 package cadastro.aluno;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import visaoaluno.Contato;
 import cadastro.ICadastro;
 import cadastro.IContato;
 
