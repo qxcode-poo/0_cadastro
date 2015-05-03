@@ -7,8 +7,8 @@ import cadastro.IContato;
 
 public class Cadastro implements ICadastro {
 	
-	private List<IContato> listaContatos;
-	private int maxContatos = 0;
+	//private List<IContato> listaContatos;
+	//private int maxContatos = 0;
 	
 	//Complete a função que verifique se a string é feita apenas de números
 	boolean validaTelefone(String telefone){

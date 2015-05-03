@@ -9,7 +9,7 @@ import org.junit.runners.MethodSorters;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 
-public abstract class CadastroAbsTester {
+public abstract class TesteCadastro {
 	public abstract ICadastro getAgendaConcret();
 
 	@Test
