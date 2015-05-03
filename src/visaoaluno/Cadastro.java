@@ -80,6 +80,7 @@ public class Cadastro implements ICadastro {
 	public List<String> getContatos() {
 		// TODO Auto-generated method stub
 		List<String> listaTelefones = new ArrayList<String>();
+		
 		for (IContato iContato : listaContatos) {
 			listaTelefones.add(iContato.getTelefone());
 		}
