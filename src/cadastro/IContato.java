@@ -1,4 +1,4 @@
-package interfaces;
+package cadastro;
 
 
 public interface IContato {

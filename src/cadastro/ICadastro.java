@@ -1,4 +1,4 @@
-package interfaces;
+package cadastro;
 
 import java.util.List;
 

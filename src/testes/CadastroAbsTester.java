@@ -2,11 +2,12 @@ package testes;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-import interfaces.ICadastro;
 
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
+
+import cadastro.ICadastro;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 

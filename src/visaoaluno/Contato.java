@@ -1,6 +1,6 @@
 package visaoaluno;
 
-import interfaces.IContato;
+import cadastro.IContato;
 
 public class Contato implements IContato {
 	
