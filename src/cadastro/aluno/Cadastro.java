@@ -2,8 +2,8 @@ package cadastro.aluno;
 
 import java.util.List;
 
-import visaoaluno.ICadastro;
-import visaoaluno.IContato;
+import cadastro.ICadastro;
+import cadastro.IContato;
 
 public class Cadastro implements ICadastro {
 	

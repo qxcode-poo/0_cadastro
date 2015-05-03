@@ -3,6 +3,9 @@ package visaoaluno;
 import java.util.ArrayList;
 import java.util.List;
 
+import cadastro.ICadastro;
+import cadastro.IContato;
+
 public class Cadastro implements ICadastro {
 	
 	private List<IContato> listaContatos;
