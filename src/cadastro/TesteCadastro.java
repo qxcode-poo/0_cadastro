@@ -7,6 +7,8 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
+import visaoaluno.ICadastro;
+
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 
 public abstract class TesteCadastro {

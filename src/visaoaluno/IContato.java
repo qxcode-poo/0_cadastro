@@ -1,4 +1,4 @@
-package cadastro;
+package visaoaluno;
 
 
 public interface IContato {
