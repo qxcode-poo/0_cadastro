@@ -1,4 +1,4 @@
-package testes;
+package cadastro;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -7,11 +7,9 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
-import cadastro.ICadastro;
-
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 
-public abstract class CadastroAbsTester {
+public abstract class AbsTesterICadastro {
 	public abstract ICadastro getAgendaConcret();
 
 	@Test

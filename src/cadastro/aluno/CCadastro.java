@@ -1,4 +1,4 @@
-package visaoaluno;
+package cadastro.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import cadastro.ICadastro;
 import cadastro.IContato;
 
-public class Cadastro implements ICadastro {
+public class CCadastro implements ICadastro {
 	
 	private List<IContato> listaContatos;
 	private int maxContatos = 0;
@@ -30,7 +30,7 @@ public class Cadastro implements ICadastro {
 	@Override
 	public boolean adicionarContato(String telefone, String nome) {
 		// TODO Auto-generated method stub
-		IContato iContato = new Contato(telefone, nome);
+		IContato iContato = new CContato(telefone, nome);
 		if (getContatoByTel(telefone) == null) {
 			if (validaTelefone(telefone) && nome != null){
 				if (this.listaContatos.size() < this.maxContatos) {
