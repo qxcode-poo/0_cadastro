@@ -2,7 +2,7 @@ package cadastro;
 
 import java.util.List;
 
-public interface ICadastro {
+public interface ICadastroAluno {
 	
 	//inicia a agenda apagando qualquer contato que nela possua.
 	//também seta o limite da memória para adicionar contatos.

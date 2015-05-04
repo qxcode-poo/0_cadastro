@@ -7,16 +7,16 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
-import cadastro.ICadastro;
+import cadastro.ICadastroAluno;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 
 public abstract class CadastroAbsTester {
-	public abstract ICadastro getAgendaConcret();
+	public abstract ICadastroAluno getAgendaConcret();
 
 	@Test
 	public void aAdicaoContagem(){
-		ICadastro cadastroTest = getAgendaConcret();
+		ICadastroAluno cadastroTest = getAgendaConcret();
 		cadastroTest.resetAgenda(10);
 		
 		assertTrue(cadastroTest.getContatos().size() == 0);
@@ -40,7 +40,7 @@ public abstract class CadastroAbsTester {
 	
 	@Test
 	public void bRemocaoListagem(){
-		ICadastro cadastroTest = getAgendaConcret();
+		ICadastroAluno cadastroTest = getAgendaConcret();
 		cadastroTest.resetAgenda(4);
 		
 		assertTrue(cadastroTest.adicionarContato("11110040", "Pedro Álvares"));
@@ -68,7 +68,7 @@ public abstract class CadastroAbsTester {
 	
 	@Test
 	public void cListasTelefones(){
-		ICadastro cadastroTest = getAgendaConcret();
+		ICadastroAluno cadastroTest = getAgendaConcret();
 		cadastroTest.resetAgenda(10);
 		
 		assertTrue(cadastroTest.getContatos().size() == 0);

@@ -1,12 +1,12 @@
 package testes;
 
-import cadastro.ICadastro;
+import cadastro.ICadastroAluno;
 import visaoaluno.Cadastro;
 
 public class CadastroConcTester extends CadastroAbsTester{
 
 	@Override
-	public ICadastro getAgendaConcret() {
+	public ICadastroAluno getAgendaConcret() {
 		// TODO Auto-generated method stub
 		return new Cadastro();
 	}
