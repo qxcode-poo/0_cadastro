@@ -2,7 +2,7 @@ package cadastro.aluno;
 
 public class Contato {
 
-	public Contato(String nome, String telefone) {
+	public Contato(String telefone, String nome) {
 		
 	}
 	
