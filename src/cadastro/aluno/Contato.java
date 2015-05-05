@@ -6,7 +6,7 @@ public class Contato {
 	private String telefone;
 	
 	//Método construtor da classe
-	public Contato(String nome, String telefone) {
+	public Contato(String telefone, String nome) {
 		this.nome = nome;
 		this.telefone = telefone;
 	}
