@@ -8,7 +8,7 @@ import cadastro.IContato;
 
 public class CCadastro implements ICadastro {
 	
-	private List<IContato> listaContatos;
+	private List<IContato> listaContatos = new ArrayList<IContato>();
 	private int maxContatos = 0;
 	
 	
@@ -22,7 +22,7 @@ public class CCadastro implements ICadastro {
 	public boolean resetAgenda(int maxContatos) {
 		// TODO Auto-generated method stub
 		this.maxContatos = maxContatos;
-		this.listaContatos = new ArrayList<IContato>();
+		
 		this.listaContatos.removeAll(listaContatos);
 		return true;
 	}
@@ -82,7 +82,7 @@ public class CCadastro implements ICadastro {
 		List<String> listaTelefones = new ArrayList<String>();
 		
 		for (IContato iContato : listaContatos) {
-			listaTelefones.add(iContato.getTelefone());
+			listaTelefones.add(iContato.getTelefone()+" - "+iContato.getNome());
 		}
 
 		return listaTelefones;

@@ -60,6 +60,7 @@ public abstract class AbsTesterICadastro {
 		//Estourar Limite de Contatos
 		assertFalse(cadastroTest.adicionarContato("35410090", "Chico Xavier"));
 
+		assertTrue(cadastroTest.getContatos().get(0).equals("Dom Pedro - 11110050"));
 		assertTrue(cadastroTest.getContatos()!=null);
 		
 	}
