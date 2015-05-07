@@ -47,6 +47,9 @@ public class Cadastro{
 	}
 
 	//devolve todos os telefones da lista
+	//concatene o telefone co o numero do contato:
+	//Exemplo:
+	// 08007777000 - Aluno TekPix
 	public List<String> getContatos() {
 		return null;
 	}
